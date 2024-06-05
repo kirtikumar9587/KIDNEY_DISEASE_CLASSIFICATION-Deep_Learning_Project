@@ -1,9 +1,9 @@
 #for exprection use box exception using python box library
 #
-#kept function inside the utils folder means utility functionality so whenever reading ,read from here
+#kept functionpyho inside the utils folder means utility functionality so whenever reading ,read from here
 import os
 from box.exceptions import BoxValueError
-import yaml#stored yaml file
+#import yaml#stored yaml file
 from cnnClassifier import logger
 import json
 import joblib
@@ -17,6 +17,7 @@ import base64
 #not use all function but kept for reference in any other project
 
 #1st function is read_yaml file-in this give path of the yaml file it will the content inside it.
+
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox: #configbox is function return type
     """reads yaml file and returns
