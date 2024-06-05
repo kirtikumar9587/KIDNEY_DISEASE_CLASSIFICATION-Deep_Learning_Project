@@ -1,15 +1,17 @@
 #for exprection use box exception using python box library
 #
 #kept functionpyho inside the utils folder means utility functionality so whenever reading ,read from here
+#import yaml#stored yaml file
+
 import os
 from box.exceptions import BoxValueError
-#import yaml#stored yaml file
+import yaml
 from cnnClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
 from box import ConfigBox
-from pathlib import Path#to handle window path
+from pathlib import Path
 from typing import Any
 import base64
 
@@ -17,9 +19,10 @@ import base64
 #not use all function but kept for reference in any other project
 
 #1st function is read_yaml file-in this give path of the yaml file it will the content inside it.
+#configbox is function return type
 
 @ensure_annotations
-def read_yaml(path_to_yaml: Path) -> ConfigBox: #configbox is function return type
+def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
 
     Args:
@@ -33,17 +36,17 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox: #configbox is function return ty
         ConfigBox: ConfigBox type
     """
     try:
-        with open(path_to_yaml) as yaml_file:
+        with open(path_to_yaml,'r') as yaml_file:
             content = yaml.safe_load(yaml_file)
-            logger.info(f"yaml file: {path_to_yaml} loaded successfully")#that file is loaded succesfully
+            logger.info(f"yaml file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
     except BoxValueError:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
-    
 
 #for creating directories like artifacts,data validation
+
 @ensure_annotations
 def create_directories(path_to_directories: list, verbose=True):
     """create list of directories
@@ -58,6 +61,7 @@ def create_directories(path_to_directories: list, verbose=True):
             logger.info(f"created directory at: {path}")
 
 #to save json file need during model evaluation to save the model metrics
+
 @ensure_annotations
 def save_json(path: Path, data: dict):
     """save json data
@@ -74,6 +78,7 @@ def save_json(path: Path, data: dict):
 
 #for every function use @ensure_annontations-see in research-trials file
 # by trials.py file know why using the @ensure _annotations
+
 @ensure_annotations
 def load_json(path: Path) -> ConfigBox:
     """load json files data
@@ -90,7 +95,9 @@ def load_json(path: Path) -> ConfigBox:
     logger.info(f"json file loaded succesfully from: {path}")
     return ConfigBox(content)
 
+
 #save file in binary format
+
 @ensure_annotations
 def save_bin(data: Any, path: Path):
     """save binary file
@@ -103,6 +110,7 @@ def save_bin(data: Any, path: Path):
     logger.info(f"binary file saved at: {path}")
 
 #load a particular file 
+
 @ensure_annotations
 def load_bin(path: Path) -> Any:
     """load binary data
@@ -118,6 +126,7 @@ def load_bin(path: Path) -> Any:
     return data
 
 #get _size  of the file
+
 @ensure_annotations
 def get_size(path: Path) -> str:
     """get size in KB
@@ -132,12 +141,12 @@ def get_size(path: Path) -> str:
     return f"~ {size_in_kb} KB"
 
 #then decode and encode image use this in prediction pipeline
+
 def decodeImage(imgstring, fileName):
     imgdata = base64.b64decode(imgstring)
     with open(fileName, 'wb') as f:
         f.write(imgdata)
         f.close()
-
 
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath, "rb") as f:
