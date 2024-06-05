@@ -1,1 +1,86 @@
 [2024-06-05 12:19:34,156: INFO: main: Welcome to our custom log]
+[2024-06-05 23:37:33,003: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 23:37:33,008: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 23:37:33,010: INFO: common: created directory at: artifacts]
+[2024-06-05 23:37:33,024: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-05 23:37:33,025: INFO: 3074633784: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-05 23:38:31,525: INFO: 3074633784: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 00:18:03,312: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-06 00:18:03,356: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 00:18:03,357: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 00:18:03,358: INFO: common: created directory at: artifacts]
+[2024-06-06 00:18:03,358: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-06 00:18:03,359: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 00:18:34,908: ERROR: main: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))]
+Traceback (most recent call last):
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\http\client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\http\client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 17, in <module>
+    obj.main()
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.download_file()
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\components\data_ingestion.py", line 34, in download_file
+    raise e
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\components\data_ingestion.py", line 29, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2024-06-06 00:21:39,398: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-06 00:21:39,400: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 00:21:39,401: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 00:21:39,401: INFO: common: created directory at: artifacts]
+[2024-06-06 00:21:39,402: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-06 00:21:39,402: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 00:22:07,605: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 00:22:08,174: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
