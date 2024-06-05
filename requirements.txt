@@ -1,17 +1,13 @@
-#not to sue comment with requirements
 
 tensorflow==2.12.0
 pandas 
-dvc #pandaas data version control
+dvc 
 mlflow==2.2.2
 notebook
 numpy
 matplotlib
 seaborn
 python-box==6.0.2
-
-#to read yaml file and load in this package
-
 pyYAML
 tqdm
 ensure==1.0.2
@@ -20,14 +16,6 @@ types-PyYAML
 scipy
 Flask
 
-#used flask for creating web app
-
 Flask-Cors
-
-#need beacause reading data from google drive itself by this
-
 gdown
-
-#to install src\cnnClassifier as the local package
-
 -e .
