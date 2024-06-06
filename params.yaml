@@ -1,3 +1,16 @@
 #initially not keep value but keep dummy value
 #whenever prepare model that time give parameter
-key: value #because if kept empty give error so dummy value give
+#key: value #because if kept empty give error so dummy value give
+
+#here running run time augmentaion
+#image size as per the vgg16 model #batch size=16 fot local train
+#top=FC layer =false #weights get thr pretrained model
+
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
