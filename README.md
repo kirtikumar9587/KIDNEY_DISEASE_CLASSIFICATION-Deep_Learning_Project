@@ -79,7 +79,9 @@ DVC
 Its very lite weight for POC only
 lite weight expriements tracker
 It can perform Orchestration (Creating Pipelines)
-AWS-CICD-Deployment-with-Github-Actions
+
+
+### AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
 #with specific access
@@ -89,7 +91,7 @@ AWS-CICD-Deployment-with-Github-Actions
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 
