@@ -61,10 +61,13 @@ export MLFLOW_TRACKING_PASSWORD=8f0f1cedad36db221bc92112ed47a3c6eb81642b
 
 ```
 
-DVC cmd
+### DVC cmd
+```bash 
 dvc init
 dvc repro
 dvc dag
+```
+
 About MLflow & DVC
 MLflow
 
