@@ -1,0 +1,61 @@
+#1which pipeline we run write this stage and need to run it
+# this call data ingestion file __name__ is for dvc
+#dependicies require are itself and config.yaml and output save in artifacts
+#to run dvc need to execute one command-init dvc -it initialize one folder dvc and also .dvcignore
+#dvc repro- run the dvc.yaml file and it is also tracking that data download to this folder and dependicies so that whenever run next time if alredy avilable it will not run 
+
+stages:
+  data_ingestion:
+    cmd: python src/cnnClassifier/pipeline/stage_01_data_ingestion.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_01_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/kidney-ct-scan-image
+
+#in cmd ececute this file and thendependenices and define params and output
+
+  prepare_base_model:
+    cmd: python src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
+      - config/config.yaml
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES
+      - WEIGHTS
+      - LEARNING_RATE
+    outs:
+      - artifacts/prepare_base_model
+
+
+  training:
+    cmd: python src/cnnClassifier/pipeline/stage_03_model_training.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_03_model_training.py
+      - config/config.yaml
+      - artifacts/data_ingestion/kidney-ct-scan-image
+      - artifacts/prepare_base_model
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+    outs:
+      - artifacts/training/model.h5
+
+
+  evaluation:
+    cmd: python src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+      - config/config.yaml
+      - artifacts/data_ingestion/kidney-ct-scan-image
+      - artifacts/training/model.h5
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+    metrics:
+    - scores.json:
+        cache: false
