@@ -40,19 +40,27 @@ MLflow tutorial
 
 cmd
 mlflow ui
-dagshub
-dagshub
+### dagshub
+[dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
-MLFLOW_TRACKING_USERNAME=entbappy
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+MLFLOW_TRACKING_URI=https://dagshub.com/kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow \
+MLFLOW_TRACKING_USERNAME=kirtikumar9587 \
+MLFLOW_TRACKING_PASSWORD=f5642e39ca1a50fb178e63884567ac1175c9bff0 \
 python script.py
 
 ### Run this to export as env variables:
+ 
+it will export this tracking uri in env variable
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
-export MLFLOW_TRACKING_USERNAME=entbappy 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow
+export MLFLOW_TRACKING_USERNAME= kirtikumar9587
+export MLFLOW_TRACKING_PASSWORD=8f0f1cedad36db221bc92112ed47a3c6eb81642b
+
+```
+
 DVC cmd
 dvc init
 dvc repro

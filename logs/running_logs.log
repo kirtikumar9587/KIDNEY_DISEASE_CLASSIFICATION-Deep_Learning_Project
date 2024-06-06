@@ -226,3 +226,198 @@ x==========x]
 [2024-06-06 14:57:27,751: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-06-06 16:53:22,376: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\config\config.yaml loaded successfully]
+[2024-06-06 16:53:22,400: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\params.yaml loaded successfully]
+[2024-06-06 16:53:22,401: INFO: common: created directory at: artifacts]
+[2024-06-06 16:53:49,782: INFO: common: json file saved at: scores.json]
+[2024-06-06 16:53:56,013: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 16:53:57,104: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmpt81ib5xy\model\data\model\assets]
+[2024-06-06 17:17:09,470: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow/api/2.0/mlflow-artifacts/artifacts/06fbfc19ab9d4a1b97408c957a8e0500/a0da096ce7c24132bbd35ca5d695e90e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2024-06-06 17:33:11,784: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\config\config.yaml loaded successfully]
+[2024-06-06 17:33:11,792: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\params.yaml loaded successfully]
+[2024-06-06 17:33:11,801: INFO: common: created directory at: artifacts]
+[2024-06-06 17:33:33,655: INFO: common: json file saved at: scores.json]
+[2024-06-06 17:33:53,168: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-06-06 17:33:58,524: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 17:34:00,460: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmp1gue0yfd\model\data\model\assets]
+[2024-06-06 17:37:21,368: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow/api/2.0/mlflow-artifacts/artifacts/06fbfc19ab9d4a1b97408c957a8e0500/74d74fc374214dd6b7bca48c067db127/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2024-06-06 17:41:02,005: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\config\config.yaml loaded successfully]
+[2024-06-06 17:41:02,008: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\params.yaml loaded successfully]
+[2024-06-06 17:41:02,009: INFO: common: created directory at: artifacts]
+[2024-06-06 17:41:27,402: INFO: common: json file saved at: scores.json]
+[2024-06-06 17:41:30,159: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 17:41:32,812: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmpaq1p28ge\model\data\model\assets]
+[2024-06-06 17:49:32,685: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\config\config.yaml loaded successfully]
+[2024-06-06 17:49:32,689: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\params.yaml loaded successfully]
+[2024-06-06 17:49:32,691: INFO: common: created directory at: artifacts]
+[2024-06-06 17:49:58,093: INFO: common: json file saved at: scores.json]
+[2024-06-06 17:50:00,612: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 17:50:01,379: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmpvw_4k7bj\model\data\model\assets]
+[2024-06-06 18:10:05,324: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-06 18:10:05,372: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 18:10:05,381: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 18:10:05,381: INFO: common: created directory at: artifacts]
+[2024-06-06 18:10:05,385: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-06 18:10:05,385: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 18:11:19,337: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 18:11:21,606: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-06 18:11:21,607: INFO: main: *******************]
+[2024-06-06 18:11:21,607: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-06 18:11:21,616: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 18:11:21,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 18:11:21,623: INFO: common: created directory at: artifacts]
+[2024-06-06 18:11:21,623: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-06 18:11:22,995: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-06 18:11:24,243: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-06 18:11:24,245: INFO: main: *******************]
+[2024-06-06 18:11:24,245: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-06 18:11:24,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 18:11:24,259: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 18:11:24,264: INFO: common: created directory at: artifacts]
+[2024-06-06 18:11:24,265: INFO: common: created directory at: artifacts\training]
+[2024-06-06 18:12:39,477: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-06 18:12:39,477: INFO: main: *******************]
+[2024-06-06 18:12:39,477: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-06 18:12:39,485: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 18:12:39,485: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 18:12:39,485: INFO: common: created directory at: artifacts]
+[2024-06-06 18:13:02,083: INFO: common: json file saved at: scores.json]
+[2024-06-06 18:13:02,083: INFO: common: json file saved at: scores.json]
+[2024-06-06 18:13:03,770: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 60, in <module>
+    model_evalution.main()
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 64, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2024-06-06 18:54:03,389: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\config\config.yaml loaded successfully]
+[2024-06-06 18:54:03,396: INFO: common: yaml file: d:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\params.yaml loaded successfully]
+[2024-06-06 18:54:03,404: INFO: common: created directory at: artifacts]
+[2024-06-06 18:54:28,450: INFO: common: json file saved at: scores.json]
+[2024-06-06 18:54:48,029: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-06-06 18:54:53,941: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 18:54:56,414: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmpt4ueqhbg\model\data\model\assets]
+[2024-06-06 19:01:37,871: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow/api/2.0/mlflow-artifacts/artifacts/06fbfc19ab9d4a1b97408c957a8e0500/50cc49d6eab34d979d123c01bdc10435/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2024-06-06 19:06:21,570: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-06 19:06:21,612: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:06:21,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:06:21,620: INFO: common: created directory at: artifacts]
+[2024-06-06 19:06:21,620: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-06 19:06:21,620: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 19:07:57,915: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 19:08:00,015: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-06 19:08:00,015: INFO: main: *******************]
+[2024-06-06 19:08:00,021: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-06 19:08:00,032: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:08:00,042: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:08:00,049: INFO: common: created directory at: artifacts]
+[2024-06-06 19:08:00,049: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-06 19:08:01,449: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-06 19:08:03,884: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-06 19:08:03,884: INFO: main: *******************]
+[2024-06-06 19:08:03,884: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-06 19:08:03,884: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:08:03,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:08:03,899: INFO: common: created directory at: artifacts]
+[2024-06-06 19:08:03,899: INFO: common: created directory at: artifacts\training]
+[2024-06-06 19:09:36,250: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-06 19:09:36,250: INFO: main: *******************]
+[2024-06-06 19:09:36,250: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-06 19:09:36,266: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:09:36,266: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:09:36,266: INFO: common: created directory at: artifacts]
+[2024-06-06 19:09:57,162: INFO: common: json file saved at: scores.json]
+[2024-06-06 19:09:57,162: INFO: common: json file saved at: scores.json]
+[2024-06-06 19:09:59,638: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 60, in <module>
+    model_evalution.main()
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()
+  File "d:\kidney_disease_classification-deep_learning_project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 64, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\HP\Anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2024-06-06 19:34:45,140: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-06 19:34:45,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:34:45,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:34:45,140: INFO: common: created directory at: artifacts]
+[2024-06-06 19:34:45,140: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-06 19:34:45,140: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 19:35:58,797: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-06 19:35:59,375: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-06 19:35:59,375: INFO: main: *******************]
+[2024-06-06 19:35:59,375: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-06 19:35:59,375: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:35:59,375: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:35:59,375: INFO: common: created directory at: artifacts]
+[2024-06-06 19:35:59,375: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-06 19:35:59,860: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-06 19:36:01,680: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-06 19:36:01,680: INFO: main: *******************]
+[2024-06-06 19:36:01,680: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-06 19:36:01,680: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:36:01,680: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:36:01,680: INFO: common: created directory at: artifacts]
+[2024-06-06 19:36:01,680: INFO: common: created directory at: artifacts\training]
+[2024-06-06 19:37:10,932: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-06 19:37:10,932: INFO: main: *******************]
+[2024-06-06 19:37:10,932: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-06 19:37:10,932: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:37:10,932: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:37:10,932: INFO: common: created directory at: artifacts]
+[2024-06-06 19:37:32,681: INFO: common: json file saved at: scores.json]
+[2024-06-06 19:37:32,681: INFO: common: json file saved at: scores.json]
+[2024-06-06 19:37:36,186: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 19:37:36,812: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmp9rpbrj7o\model\data\model\assets]
+[2024-06-06 19:41:04,459: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow/api/2.0/mlflow-artifacts/artifacts/06fbfc19ab9d4a1b97408c957a8e0500/6f0a507e344a407f8017fac829785c8c/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2024-06-06 19:45:55,071: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

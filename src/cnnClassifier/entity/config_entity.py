@@ -43,3 +43,17 @@ class TrainingConfig:
     params_batch_size: int
     params_is_augmentation: bool
     params_image_size: list
+
+
+#now need to initialize the entity
+#pass evalutionconfig provide path and training data in data ingestion
+#other params in params.yaml
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    path_of_model: Path
+    training_data: Path
+    all_params: dict
+    mlflow_uri: str
+    params_image_size: list
+    params_batch_size: int
