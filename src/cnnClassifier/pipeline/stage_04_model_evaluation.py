@@ -15,6 +15,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(config=eval_config)
         evaluation.evaluation()
         evaluation.save_score()
+        #after training many get real parmeter then not need to run this
         #evaluation.log_into_mlflow()
 
 
