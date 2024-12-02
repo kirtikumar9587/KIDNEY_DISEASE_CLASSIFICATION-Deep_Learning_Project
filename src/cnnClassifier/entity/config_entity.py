@@ -16,7 +16,6 @@ class DataIngestionConfig:
 #create entity here like data_ingestion create another dataclass na dinside that assigned parameter from params.yaml
 #frozen=true not want to add any other parameter
 
-
 @dataclass(frozen=True)
 class PrepareBaseModelConfig:
     root_dir: Path

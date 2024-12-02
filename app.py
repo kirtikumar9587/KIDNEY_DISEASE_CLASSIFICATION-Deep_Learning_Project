@@ -3,7 +3,7 @@ import os
 from flask_cors import CORS, cross_origin
 #image given is raw image and it converted to base64 string
 from cnnClassifier.utils.common import decodeImage
-from cnnClassifier.pipeline.prediction import PredictionPipeline
+from src.cnnClassifier.pipeline.prediction import PredictionPipeline
 import logging
 
 # Setup logging
@@ -34,12 +34,13 @@ def home():
 @cross_origin()
 def trainRoute():
     os.system("python main.py")
-    # os.system("dvc repro") #if want to track the file aso
+    # os.system("dvc repro")
     return "Training done successfully!"
+    # os.system("dvc repro") #if want to track the file aso
 
 
 #add the preciction route #take image and decode image and save and apply the predict operation
-@app.route("/predict", methods=['POST'])# then return result as jsonify file
+@app.route("/predict", methods=['POST'])
 @cross_origin()
 def predictRoute():
     try:
@@ -51,8 +52,7 @@ def predictRoute():
         logging.exception("An error occurred during prediction.")
         return str(e), 500
 
-
 if __name__ == "__main__":
     clApp = ClientApp()
-    
+
     app.run(host='0.0.0.0', port=8080) #for AWS

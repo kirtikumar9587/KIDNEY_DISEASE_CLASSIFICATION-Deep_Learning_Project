@@ -11,8 +11,7 @@ Project-URL: Bug Tracker, https://github.com/kirtikumar9587/Kidney-Disease-Class
 
 # Steps Used in this Project
 
-Workflows
-
+## Workflows
 ### Update config.yaml
 ### Update secrets.yaml [Optional]
 ### Update params.yaml
@@ -50,23 +49,34 @@ MLflow tutorial
 
 cmd
 mlflow ui
-dagshub
-dagshub
+### dagshub
+[dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
-MLFLOW_TRACKING_USERNAME=entbappy
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+MLFLOW_TRACKING_URI=https://dagshub.com/kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow \
+MLFLOW_TRACKING_USERNAME=kirtikumar9587 \
+MLFLOW_TRACKING_PASSWORD=f5642e39ca1a50fb178e63884567ac1175c9bff0 \
 python script.py
 
 ### Run this to export as env variables:
+ 
+it will export this tracking uri in env variable
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
-export MLFLOW_TRACKING_USERNAME=entbappy 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
-DVC cmd
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project.mlflow
+export MLFLOW_TRACKING_USERNAME= kirtikumar9587
+export MLFLOW_TRACKING_PASSWORD=8f0f1cedad36db221bc92112ed47a3c6eb81642b
+
+```
+
+### DVC cmd
+```bash 
 dvc init
 dvc repro
 dvc dag
+```
+
 About MLflow & DVC
 MLflow
 
@@ -78,7 +88,9 @@ DVC
 Its very lite weight for POC only
 lite weight expriements tracker
 It can perform Orchestration (Creating Pipelines)
-AWS-CICD-Deployment-with-Github-Actions
+
+
+### AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
 #with specific access
@@ -88,7 +100,7 @@ AWS-CICD-Deployment-with-Github-Actions
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 

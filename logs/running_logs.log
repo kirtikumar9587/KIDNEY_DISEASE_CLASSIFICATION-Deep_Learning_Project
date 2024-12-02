@@ -909,3 +909,875 @@ x==========x]
 [2024-06-07 07:53:57,424: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-06-07 12:22:54,711: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.105.26:8080]
+[2024-06-07 12:22:54,754: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-07 12:23:01,253: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:23:01] "GET / HTTP/1.1" 200 -]
+[2024-06-07 12:23:16,996: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:23:16] "POST /predict HTTP/1.1" 200 -]
+[2024-06-07 12:23:33,548: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:23:33] "POST /predict HTTP/1.1" 200 -]
+[2024-06-07 12:23:41,625: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:23:41] "POST /predict HTTP/1.1" 200 -]
+[2024-06-07 12:23:51,355: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:23:51] "POST /predict HTTP/1.1" 200 -]
+[2024-06-07 12:24:00,336: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000299BE1283A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-06-07 12:24:00,368: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:24:00] "POST /predict HTTP/1.1" 200 -]
+[2024-06-07 12:24:12,510: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000299BE128CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-06-07 12:24:12,510: INFO: _internal: 127.0.0.1 - - [07/Jun/2024 12:24:12] "POST /predict HTTP/1.1" 200 -]
+[2024-06-09 17:15:35,606: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.190.26:8080]
+[2024-06-09 17:15:35,637: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-09 17:15:46,661: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 17:15:46] "GET / HTTP/1.1" 200 -]
+[2024-06-09 17:16:04,562: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 17:16:04] "POST /predict HTTP/1.1" 200 -]
+[2024-06-09 17:16:46,294: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 17:16:46] "POST /predict HTTP/1.1" 200 -]
+[2024-06-15 15:37:16,509: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080]
+[2024-06-15 15:37:16,525: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-15 15:37:44,430: INFO: _internal: 127.0.0.1 - - [15/Jun/2024 15:37:44] "GET / HTTP/1.1" 200 -]
+[2024-06-15 18:18:18,268: INFO: _internal: 127.0.0.1 - - [15/Jun/2024 18:18:18] "GET / HTTP/1.1" 200 -]
+[2024-10-24 23:54:27,165:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-24 23:54:27,165:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-24 23:54:27,165:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-24 23:54:27,165:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-24 23:54:27,165:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-24 23:54:27,174:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-24 23:54:27,174:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-24 23:54:27,196:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-24 23:54:57,089:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-24 23:54:57,089:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-24 23:55:24,519:INFO:_internal:127.0.0.1 - - [24/Oct/2024 23:55:24] "GET / HTTP/1.1" 200 -]
+[2024-10-24 23:56:43,336:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 51, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^
+AttributeError: 'ClientApp' object has no attribute 'classifier'
+[2024-10-24 23:56:43,351:INFO:_internal:127.0.0.1 - - [24/Oct/2024 23:56:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-24 23:57:53,099:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-24 23:57:53,099:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-24 23:58:03,431:INFO:_internal:127.0.0.1 - - [24/Oct/2024 23:58:03] "GET / HTTP/1.1" 200 -]
+[2024-10-24 23:58:09,675:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 51, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^
+AttributeError: 'ClientApp' object has no attribute 'classifier'
+[2024-10-24 23:58:09,679:INFO:_internal:127.0.0.1 - - [24/Oct/2024 23:58:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-25 01:10:05,462:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-25 01:10:05,499:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-25 01:10:28,295:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-10-25 01:10:28,638:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-25 01:10:28,638:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-25 01:10:49,187:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:10:49] "GET / HTTP/1.1" 200 -]
+[2024-10-25 01:10:57,409:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'sum', 'none', 'sum_over_batch_size', None}. Received: reduction=auto
+[2024-10-25 01:10:57,438:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:10:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-25 01:14:50,540:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-10-25 01:14:50,969:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-25 01:14:50,969:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-25 01:15:13,147:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:15:13] "GET / HTTP/1.1" 200 -]
+[2024-10-25 01:15:25,073:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'sum', 'none', 'sum_over_batch_size', None}. Received: reduction=auto
+[2024-10-25 01:15:25,083:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:15:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-25 01:18:11,873:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-10-25 01:18:12,262:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.130:8080]
+[2024-10-25 01:18:12,262:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-10-25 01:18:19,711:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:18:19] "GET / HTTP/1.1" 200 -]
+[2024-10-25 01:18:22,313:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'sum', 'sum_over_batch_size', None}. Received: reduction=auto
+[2024-10-25 01:18:22,321:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:18:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-25 01:18:31,741:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:18:31] "GET / HTTP/1.1" 200 -]
+[2024-10-25 01:18:40,684:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'sum', 'sum_over_batch_size', None}. Received: reduction=auto
+[2024-10-25 01:18:40,686:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:18:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-25 01:18:45,014:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:18:45] "GET / HTTP/1.1" 200 -]
+[2024-10-25 01:18:52,032:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'sum', 'sum_over_batch_size', None}. Received: reduction=auto
+[2024-10-25 01:18:52,035:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:18:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-25 01:19:23,784:INFO:_internal:127.0.0.1 - - [25/Oct/2024 01:19:23] "GET / HTTP/1.1" 200 -]
+[2024-11-12 00:07:55,307:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:07:55,339:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:08:04,356:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:08:04,360:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:08:36,583:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:08:37,246:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:08:37,285:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:08:48,486:INFO:_internal:127.0.0.1 - - [12/Nov/2024 00:08:48] "GET / HTTP/1.1" 200 -]
+[2024-11-12 00:09:12,538:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'sum_over_batch_size', 'sum', None}. Received: reduction=auto
+[2024-11-12 00:09:12,602:INFO:_internal:127.0.0.1 - - [12/Nov/2024 00:09:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-12 00:22:19,132:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:22:19,774:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:22:19,774:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:22:29,324:INFO:_internal:127.0.0.1 - - [12/Nov/2024 00:22:29] "GET / HTTP/1.1" 200 -]
+[2024-11-12 00:22:39,805:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'sum_over_batch_size', 'sum', None}. Received: reduction=auto
+[2024-11-12 00:22:39,829:INFO:_internal:127.0.0.1 - - [12/Nov/2024 00:22:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-12 00:23:09,902:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:23:09,902:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:23:09,915:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:23:09,918:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:32:42,805:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:32:42,805:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:32:42,805:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:32:42,805:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:32:55,151:INFO:_internal:127.0.0.1 - - [12/Nov/2024 00:32:55] "GET / HTTP/1.1" 200 -]
+[2024-11-12 00:32:55,776:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:32:56,759:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 00:32:56,759:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 00:33:19,945:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 48, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PredictionPipeline' object has no attribute 'predict'
+[2024-11-12 00:33:19,961:INFO:_internal:127.0.0.1 - - [12/Nov/2024 00:33:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-12 00:38:34,545:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:38:36,247:INFO:wasyncore:Serving on http://0.0.0.0:8080]
+[2024-11-12 00:38:53,180:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 47, in predictRoute
+    decodeImage(image, clApp.filename)
+                       ^^^^^
+NameError: name 'clApp' is not defined
+[2024-11-12 00:43:37,241:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:43:38,172:INFO:wasyncore:Serving on http://0.0.0.0:8080]
+[2024-11-12 00:44:04,581:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 51, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PredictionPipeline' object has no attribute 'predict'
+[2024-11-12 00:45:57,531:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:45:58,408:INFO:wasyncore:Serving on http://0.0.0.0:8080]
+[2024-11-12 00:48:31,228:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:52:45,263:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:52:45,828:INFO:wasyncore:Serving on http://0.0.0.0:8080]
+[2024-11-12 00:52:55,931:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 51, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 13, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\__init__.py", line 144, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 34, in from_config
+    return cls(**config)
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 741, in __init__
+    super().__init__(
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\losses.py", line 16, in __init__
+    super().__init__(reduction=reduction, name=name)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 29, in __init__
+    self.reduction = standardize_reduction(reduction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\losses\loss.py", line 80, in standardize_reduction
+    raise ValueError(
+ValueError: Invalid value for argument `reduction`. Expected one of {'sum_over_batch_size', 'sum', 'none', None}. Received: reduction=auto
+[2024-11-12 00:58:57,992:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 00:58:58,582:INFO:wasyncore:Serving on http://0.0.0.0:8080]
+[2024-11-12 00:59:10,496:ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 47, in predictRoute
+    decodeImage(image, clApp.filename)
+                       ^^^^^
+NameError: name 'clApp' is not defined
+[2024-11-12 01:02:15,570:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 01:02:15,570:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 01:02:16,523:INFO:_internal:127.0.0.1 - - [12/Nov/2024 01:02:16] "GET / HTTP/1.1" 200 -]
+[2024-11-12 01:02:25,269:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 49, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 13, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\h5py\_hl\files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'model\model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-11-12 01:02:25,287:INFO:_internal:127.0.0.1 - - [12/Nov/2024 01:02:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-12 08:58:49,639:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 08:58:49,653:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 08:58:59,721:INFO:_internal:127.0.0.1 - - [12/Nov/2024 08:58:59] "GET / HTTP/1.1" 200 -]
+[2024-11-12 08:59:05,058:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 49, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 13, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\h5py\_hl\files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'model\model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-11-12 08:59:05,067:INFO:_internal:127.0.0.1 - - [12/Nov/2024 08:59:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-12 08:59:12,071:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.49:8080]
+[2024-11-12 08:59:12,072:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 09:09:14,003:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.40.26:8080]
+[2024-11-12 09:09:14,050:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 09:09:20,107:INFO:utils:NumExpr defaulting to 8 threads.]
+[2024-11-12 09:09:20,557:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.40.26:8080]
+[2024-11-12 09:09:20,557:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-11-12 09:09:24,099:INFO:_internal:127.0.0.1 - - [12/Nov/2024 09:09:24] "GET / HTTP/1.1" 200 -]
+[2024-11-12 09:16:47,231:ERROR:app:An error occurred during prediction.]
+Traceback (most recent call last):
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\app.py", line 49, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 13, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\saving\saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\h5py\_hl\files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'model\model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-11-12 09:16:47,563:INFO:_internal:127.0.0.1 - - [12/Nov/2024 09:16:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-11-12 09:20:38,570:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.74.26:8080]
+[2024-11-12 09:20:38,570:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-12-01 01:22:15,843: INFO: main: welcome to our custom log]
+[2024-12-01 22:39:57,084: INFO: main: welcome to our custom log]
+[2024-12-01 22:39:57,124: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-01 22:39:57,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-01 22:39:57,181: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-01 22:39:57,181: INFO: common: created directory at: artifacts]
+[2024-12-01 22:39:57,186: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-01 22:39:57,186: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 00:31:26,558: INFO: main: welcome to our custom log]
+[2024-12-02 00:31:26,563: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-02 00:31:26,566: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 00:31:26,574: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 00:31:26,576: INFO: common: created directory at: artifacts]
+[2024-12-02 00:31:26,577: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-02 00:31:26,577: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 00:34:42,461: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 00:34:43,085: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-02 00:40:29,838: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-02 00:40:29,879: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 00:40:29,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 00:40:29,884: INFO: common: created directory at: artifacts]
+[2024-12-02 00:40:29,890: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-02 00:40:29,890: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 00:44:04,544: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 00:44:05,226: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-02 00:44:05,226: INFO: main: *******************]
+[2024-12-02 00:44:05,226: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-12-02 00:44:05,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 00:44:05,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 00:44:05,231: INFO: common: created directory at: artifacts]
+[2024-12-02 00:44:05,232: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-12-02 00:44:05,720: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-02 00:44:06,394: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-12-02 14:51:51,485: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-02 14:51:51,526: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 14:51:51,534: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 14:51:51,536: INFO: common: created directory at: artifacts]
+[2024-12-02 14:51:51,538: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-02 14:51:51,539: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 14:52:17,056: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-02 14:52:18,347: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-02 14:52:18,347: INFO: main: *******************]
+[2024-12-02 14:52:18,347: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-12-02 14:52:18,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 14:52:18,347: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 14:52:18,355: INFO: common: created directory at: artifacts]
+[2024-12-02 14:52:18,355: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-12-02 14:52:19,108: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-02 14:52:19,768: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-12-02 14:52:19,776: INFO: main: *******************]
+[2024-12-02 14:52:19,776: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-12-02 14:52:19,781: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 14:52:19,784: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 14:52:19,784: INFO: common: created directory at: artifacts]
+[2024-12-02 14:52:19,784: INFO: common: created directory at: artifacts\training]
+[2024-12-02 15:28:54,089: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-12-02 15:28:54,090: INFO: main: *******************]
+[2024-12-02 15:28:54,090: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-12-02 15:28:54,105: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-02 15:28:54,107: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-02 15:28:54,108: INFO: common: created directory at: artifacts]
+[2024-12-02 15:29:15,011: INFO: common: json file saved at: scores.json]
+[2024-12-02 15:29:15,013: INFO: common: json file saved at: scores.json]
+[2024-12-02 15:29:15,013: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-02 16:13:58,235: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.63.26:8080]
+[2024-12-02 16:13:58,235: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-02 16:14:46,619: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:14:46] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:17:13,672: ERROR: app: An error occurred during prediction.]
+Traceback (most recent call last):
+  File "app.py", line 49, in predictRoute
+    result = clApp.classifier.predict()
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 13, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\HP\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\HP\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\HP\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-12-02 16:17:13,678: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:17:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-02 16:18:08,600: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:18:08] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:18:19,249: ERROR: app: An error occurred during prediction.]
+Traceback (most recent call last):
+  File "app.py", line 49, in predictRoute
+    result = clApp.classifier.predict()
+  File "D:\KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project\src\cnnClassifier\pipeline\prediction.py", line 13, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\HP\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\HP\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\HP\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-12-02 16:18:19,250: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:18:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-02 16:28:50,676: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.63.26:8080]
+[2024-12-02 16:28:50,676: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-02 16:28:57,325: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:28:57] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:29:06,840: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:29:06] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:37:11,524: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.63.26:8080]
+[2024-12-02 16:37:11,524: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-02 16:37:15,697: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:37:15] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:37:28,228: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:37:28] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:38:38,401: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:38:38] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:39:00,775: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.63.26:8080]
+[2024-12-02 16:39:00,775: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-02 16:39:04,890: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:39:04] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:41:59,987: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.63.26:8080]
+[2024-12-02 16:41:59,987: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-02 16:42:05,673: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:42:05] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:44:53,127: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.63.26:8080]
+[2024-12-02 16:44:53,127: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-02 16:44:58,583: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:44:58] "GET / HTTP/1.1" 200 -]
+[2024-12-02 16:45:08,757: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:08] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:45:27,735: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:27] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:45:37,129: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:37] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:45:43,328: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:43] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:45:48,766: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000021B23332430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-12-02 16:45:48,766: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:48] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:45:54,295: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000021B23332040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-12-02 16:45:54,295: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:54] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:45:59,515: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:45:59] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:46:07,405: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:46:07] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:46:14,851: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:46:14] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:46:51,306: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:46:51] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:46:56,542: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:46:56] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:47:16,309: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:47:16] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:47:51,694: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:47:51] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:48:06,703: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:48:06] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:48:31,787: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:48:31] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:48:46,231: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:48:46] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:48:58,108: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:48:58] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:49:10,079: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:49:10] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:49:18,804: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:49:18] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:50:10,215: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:50:10] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:50:24,156: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:50:24] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:50:31,492: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:50:31] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:50:37,835: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:50:37] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:50:48,827: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:50:48] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:50:56,023: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:50:56] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:51:02,512: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:51:02] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:51:12,157: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:51:12] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:51:33,429: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:51:33] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:51:38,737: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:51:38] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:51:45,816: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:51:45] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:51:50,867: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:51:50] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:52:04,683: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:52:04] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:52:12,726: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:52:12] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:52:23,838: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:52:23] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:52:34,898: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:52:34] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:52:44,910: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:52:44] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:52:58,489: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:52:58] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:53:18,853: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:53:18] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:53:28,768: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:53:28] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:53:36,726: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:53:36] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:53:49,497: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:53:49] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:53:58,419: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:53:58] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:54:13,138: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:54:13] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:54:26,919: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:54:26] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:54:37,195: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:54:37] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:54:47,053: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:54:47] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:54:55,772: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:54:55] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:55:06,670: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:55:06] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:55:20,641: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:55:20] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:55:28,075: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:55:28] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:55:35,481: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:55:35] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:55:44,241: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:55:44] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:07,722: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:07] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:16,287: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:16] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:21,788: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:21] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:26,707: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:26] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:32,320: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:32] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:37,485: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:37] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:41,985: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:41] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:46,403: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:46] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:52,848: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:52] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 16:56:57,222: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 16:56:57] "POST /predict HTTP/1.1" 200 -]
+[2024-12-02 17:34:33,266: INFO: _internal: 127.0.0.1 - - [02/Dec/2024 17:34:33] "POST /predict HTTP/1.1" 200 -]

@@ -20,7 +20,7 @@ Clone the repository
 
 https://github.com/kirtikumar9587/KIDNEY_DISEASE_CLASSIFICATION-Deep_Learning_Project
 
-## STEP 01- Create a conda environment after opening the repository
+## ST EP 01- Create a conda environment after opening the repository
 
 conda create -n cnncls python=3.8 -y
 conda activate cnncls
@@ -109,7 +109,10 @@ It can perform Orchestration (Creating Pipelines)
 
 2. AmazonEC2FullAccess
 3. Create ECR repo to store/save docker image
-- Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+- Save the URI(asia mumbai): 533267036433.dkr.ecr.ap-south-1.amazonaws.com/kidney
+
+(south-east)
+533267036433.dkr.ecr.ap-southeast-2.amazonaws.com/kidney
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
 #optinal
