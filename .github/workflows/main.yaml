@@ -82,17 +82,18 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
-          aws-ecr-login-uri: ${{ secrets.AWS_ECR_LOGIN_URI }}
-          ecr-repository-name: ${{ secrets.ECR_REPOSITORY_NAME }}
 
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
+        with:
+          aws-ecr-login-uri: ${{ secrets.AWS_ECR_LOGIN_URI }}
+          ecr-repository-name: ${{ secrets.ECR_REPOSITORY_NAME }}:latest
       
       
       - name: Pull latest images
         run: |
-         docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
+         docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/$kidney
          
       # - name: Stop and remove container if running
       #   run: |
