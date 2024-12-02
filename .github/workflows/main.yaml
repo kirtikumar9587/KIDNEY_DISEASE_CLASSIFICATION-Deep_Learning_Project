@@ -86,9 +86,6 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
-        with:
-          aws-ecr-login-uri: ${{ secrets.AWS_ECR_LOGIN_URI }}
-          ecr-repository-name: ${{ secrets.ECR_REPOSITORY_NAME }}:latest
       
       
       - name: Pull latest images
