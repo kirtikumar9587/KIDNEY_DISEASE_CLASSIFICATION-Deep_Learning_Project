@@ -6,7 +6,7 @@ key: value
 #here running run time augmentaion
 #image size as per the vgg16 model #batch size=16 fot local train
 #top=FC layer =false #weights get thr pretrained model
-
+#commit
 AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
 BATCH_SIZE: 18
